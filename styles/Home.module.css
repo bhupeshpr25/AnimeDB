@@ -1,0 +1,98 @@
+.title {
+  color: #eee;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.search {
+  margin: 0 60px 0 400px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search input {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  display: block;
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #eee;
+  transition: 0.4s;
+}
+
+.btn {
+  background: #70abad;
+  color: #333;
+  border: none;
+  height: 50px;
+  width: 70px;
+  margin-left: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #9e9c9cee;
+  color: #014242;
+}
+
+.searchlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  padding: 20px 0 5px 0px;
+  margin: 10px 20px 10px 30px;
+  background-color: #70abad;
+  width: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translate(0px, 5px);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.error {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchError {
+  padding-left: 500px;
+  color: #0ee9e9;
+}
+
+.errorHead {
+  font-family: 'RocknRoll One', sans-serif;
+  color: #0ee9e9;
+}
+
+.errorText {
+  color: #333;
+}
