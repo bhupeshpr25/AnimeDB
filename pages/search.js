@@ -39,6 +39,7 @@ export default function Search() {
           type='search'
           value={animeSearch}
           onChange={(e) => setanimeSearch(e.target.value)}
+          maxLength='100'
           placeholder='Search anime, e.g Pokemon'
         />
         <button type='submit' className={styles.btn}>
