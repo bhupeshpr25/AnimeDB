@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <footer>
-      Made by{' '}
-      <a target='_blank' href='https://github.com/bhupeshpradhan'>
-        Bhupesh Pradhan
+      {' '}
+      <a target='_blank' href='https://github.com/bhupeshpradhan/AnimeDB'>
+        Github repo
       </a>
     </footer>
   );
