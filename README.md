@@ -5,3 +5,5 @@ I used [Jikan API](https://jikan.moe/) to fetch data using Fetch API from MyAnim
 
 live link : https://anime-db-kappa.vercel.app/
 
+//todo
+- fix responsiveness
